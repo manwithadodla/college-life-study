@@ -8,7 +8,7 @@ $(document).ready(function() {
       menu.classList.toggle("js-menu-is-open");
     });
   }
-
+  $('#vert').val('e\nd\ni\nt');   
   // initialize smooth scroll
   $("a").smoothScroll({ offset: -20 });
 
