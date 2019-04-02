@@ -17,32 +17,9 @@
   -ms-transform:rotate(90deg); /* IE 9 */
   -moz-transform:rotate(90deg); /* Firefox */
   -webkit-transform:rotate(270deg); /* Safari and Chrome */
-  -o-transform:rotate(90deg); /* Opera */}
+  -o-transform:rotate(90deg); /* Opera */
+  }
 
-input{
-  cursor:pointer;
-  min-height:30px;
-  position:fixed;
-  
-  border: 1px solid #333;
-  border-radius: 8px;
-  padding: 4px 8px;margin-left:20px;
-  
-  font:12pt Calibri bold;
-  font-variant:small-caps;
-  color: #fff;
-  text-shadow: 0 0 0;
-  outline: 0;
-  letter-spacing: 2px;
-  
-  text-shadow: 0 1px 4px #111;
-  /*box-shadow*/
-  box-shadow: 0 1px 4px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.2), inset 0 -1px 1px rgba(255,255,255,.1);
-  /*linear-gradient*/
-  background: linear-gradient(#333,#666);
-}
-
-input:hover{box-shadow:0px 0px 4px #fff;}
 
 
 #menu-toggle {
