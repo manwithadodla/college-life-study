@@ -9,7 +9,6 @@
     list-style: none;
   }
 }
-
 #rotate{
   vertical-align:top;
   margin-top:23px;
@@ -23,7 +22,7 @@
 input{
   cursor:pointer;
   min-height:30px;
-  position:relative;
+  position:fixed;
   
   border: 1px solid #333;
   border-radius: 8px;
@@ -45,6 +44,8 @@ input{
 
 input:hover{box-shadow:0px 0px 4px #fff;}
 input:active{top:1px;}
+
+body{background-color:#222;}  
 
 #menu-toggle {
   position: relative;
