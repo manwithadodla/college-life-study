@@ -26,6 +26,13 @@
   }
 }
 
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
 .fun-widget {
     display: block;
     font-size: 1rem;
