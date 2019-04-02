@@ -280,6 +280,15 @@ body {
   height: 1em;
   margin-right: 0.6em; }
   
+iframe[Attributes Style] {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    height: 40px;
+    width: 116px;
+}
+
 #menu-toggle {
   position: relative;
   display: inline-block;
