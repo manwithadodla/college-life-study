@@ -8,7 +8,6 @@ $(document).ready(function() {
       menu.classList.toggle("js-menu-is-open");
     });
   }
-  $('#vert').val('New Participant');   
   // initialize smooth scroll
   $("a").smoothScroll({ offset: -20 });
 
