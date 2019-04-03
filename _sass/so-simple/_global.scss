@@ -115,23 +115,6 @@ body {
   position: relative;
   z-index: 2; }
 
-.icon {
-  fill: currentColor;
-  display: inline-block;
-  vertical-align: -.1625em;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.6em; }
-
-iframe[Attributes Style] {
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    height: 40px;
-    width: 116px;
-}
-
 #menu-toggle {
   position: relative;
   display: inline-block;
@@ -146,28 +129,6 @@ iframe[Attributes Style] {
   @include breakpoint($medium) {
     display: none;
   }
-}
-
-iframe {
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
-
-.fun-widget {
-    display: block;
-    font-size: 1rem;
-    width: auto;
-    min-height: 30px;
-    max-height: 80px;
-    max-width: 100%;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    float: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 .fun-widget .fun-widget-btn {
@@ -340,17 +301,10 @@ iframe {
     margin: 0;
     padding: 0;
   }
-
+x
   a {
     color: lighten($text-color, 35%);
   }
-}
-
-.footnotes {
-  margin: 2rem 0;
-  padding-top: 1rem;
-  border-top: 1px solid $border-color;
-  font-size: 80%;
 }
 
 .more-link {
