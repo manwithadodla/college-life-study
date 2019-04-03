@@ -95,18 +95,6 @@
 .fun-widget .fun-widget-btn:active:focus:before {
   background: rgba(0, 0, 0, 0.1); }
 
-.fun-widget .fun-widget-btn .fun-widget-btn-ripple {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  border-radius: 100%; }
-
-.fun-widget-btn-pulse-animation {
-  -webkit-animation: fun-widget-btn-pulse 3s linear infinite normal;
-  -moz-animation: fun-widget-btn-pulse 3s linear infinite normal;
-  -o-animation: fun-widget-btn-pulse 3s linear infinite normal;
-  animation: fun-widget-btn-pulse 3s linear infinite normal; }
 
 .fun-widget-btn-pulse-animation-hover {
   -webkit-animation: fun-widget-btn-pulse 1s linear infinite normal;
