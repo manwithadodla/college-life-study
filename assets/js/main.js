@@ -9,7 +9,6 @@ $(document).ready(function() {
     });
   }
 
-  var new_participant = document.getElementById("new_participant")
   // initialize smooth scroll
   $("a").smoothScroll({ offset: -20 });
 
