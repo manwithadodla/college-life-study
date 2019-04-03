@@ -134,7 +134,7 @@ body {
   text-align: center;
   padding: 0 1.5em 0 1.1em;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: baseline;
   white-space: nowrap;
   cursor: pointer;
   position: relative;
@@ -219,7 +219,7 @@ iframe {
     margin: 0;
     font-weight: 700;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: baseline;
     touch-action: manipulation;
     cursor: pointer;
     border: 0;
